@@ -1,4 +1,4 @@
-# 🐧 Laranux - Linux Development Stack Manager
+#  Laranux
 
 <p align="center">
   <img src="laranux.png" alt="Laranux Logo" width="200"/>
@@ -475,7 +475,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 **Luthfi**
 
 - 🌐 GitHub: [@adlluthfi](https://github.com/adlluthfi)
-- 📧 Email: adlluthfi@gmail.com
+- 📧 Email: luthfikkc@gmail.com
 
 ---
 

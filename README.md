@@ -46,16 +46,17 @@
 
 ### Latest Release: v1.0.0
 
-**Download untuk distribusi Anda:**
+**Download Laranux** (Universal - untuk semua distro Linux):
 
-| Distribusi | Package | Download |
-|------------|---------|----------|
-| **Ubuntu/Debian** | `.deb` | [Download](https://github.com/adlluthfi/Laranux/releases/latest/download/laranux_1.0.0_amd64.deb) |
-| **Fedora/RHEL** | `.rpm` | [Download](https://github.com/adlluthfi/Laranux/releases/latest/download/laranux-1.0.0.x86_64.rpm) |
-| **Arch Linux** | `.pkg.tar.zst` | [Download](https://github.com/adlluthfi/Laranux/releases/latest/download/laranux-1.0.0-1-x86_64.pkg.tar.zst) |
-| **Universal** | `.tar.gz` | [Download](https://github.com/adlluthfi/Laranux/releases/latest/download/laranux-1.0.0-linux-x86_64.tar.gz) |
+<p align="center">
+  <a href="https://github.com/adlluthfi/Laranux/releases/latest/download/laranux-1.0.0-linux-x86_64.tar.gz">
+    <img src="https://img.shields.io/badge/Download-Laranux%20v1.0.0-blue?style=for-the-badge&logo=linux" alt="Download Laranux">
+  </a>
+</p>
 
-> **Catatan:** Link download akan aktif setelah release pertama di-publish.
+**Package:** `laranux-1.0.0-linux-x86_64.tar.gz` (276 KB)
+
+✅ Compatible dengan: Ubuntu, Debian, Fedora, RHEL, Arch Linux, openSUSE, dan semua distro Linux dengan systemd.
 
 ### System Requirements
 
@@ -171,66 +172,24 @@ sudo pacman -S nginx apache mariadb mysql postgresql \
 
 ## 🚀 Instalasi
 
-### Metode 1: Package Manager (Recommended)
-
-#### Ubuntu/Debian (.deb)
-```bash
-# Download package
-wget https://github.com/adlluthfi/Laranux/releases/latest/download/laranux_1.0.0_amd64.deb
-
-# Install
-sudo dpkg -i laranux_1.0.0_amd64.deb
-sudo apt-get install -f  # Fix dependencies jika ada
-
-# Jalankan
-Laranux
-```
-
-#### Fedora/RHEL (.rpm)
-```bash
-# Download package
-wget https://github.com/adlluthfi/Laranux/releases/latest/download/laranux-1.0.0.x86_64.rpm
-
-# Install
-sudo dnf install ./laranux-1.0.0.x86_64.rpm
-
-# Atau dengan rpm
-sudo rpm -ivh laranux-1.0.0.x86_64.rpm
-
-# Jalankan
-Laranux
-```
-
-#### Arch Linux
-```bash
-# Download package
-wget https://github.com/adlluthfi/Laranux/releases/latest/download/laranux-1.0.0-1-x86_64.pkg.tar.zst
-
-# Install
-sudo pacman -U laranux-1.0.0-1-x86_64.pkg.tar.zst
-
-# Jalankan
-Laranux
-```
-
-### Metode 2: Universal Binary (.tar.gz)
-
-Untuk distribusi Linux lainnya:
+### Download dan Install
 
 ```bash
-# Download
+# 1. Download package
 wget https://github.com/adlluthfi/Laranux/releases/latest/download/laranux-1.0.0-linux-x86_64.tar.gz
 
-# Extract
+# 2. Extract
 tar -xzf laranux-1.0.0-linux-x86_64.tar.gz
 cd laranux-1.0.0
 
-# Install
+# 3. Install
 sudo ./install.sh
 
-# Jalankan
+# 4. Jalankan
 Laranux
 ```
+
+### Lokasi Instalasi
 
 ### Lokasi Instalasi
 

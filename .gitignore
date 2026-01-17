@@ -1,0 +1,7 @@
+# Laranux Binary Distribution
+# Repository ini hanya berisi dokumentasi
+# Binary aplikasi tersedia di GitHub Releases
+
+*.tar.gz
+*.deb
+*.rpm
